@@ -1,0 +1,166 @@
+@font-face 
+{
+    font-family: 'MontereyFLF';
+    src: url('MontereyFLF.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body
+{
+    font-family : Courier New;
+}
+
+section
+{
+    padding: 4%;
+}
+
+
+
+/*= Navigation*/
+
+header
+{
+        font-family : MontereyFLF;
+        color: white;
+        padding: 60px;
+        background-color: #022756;
+        max width: 100%;       
+}
+
+h1
+{
+    height: 1px;}
+
+nav
+{
+    padding: 1em;
+}
+
+#navbar
+{
+    max-width: 100%;
+    text-align: end;
+    display: inline-block; 
+}
+
+
+
+/*= Profil*/
+
+#profil
+{
+    text-align: center;
+    padding-top: 2em;
+}
+
+
+/*= Formation*/
+
+#formation 
+{
+    background-color: #022756;
+    color: white;
+}
+
+
+
+/*= Compétences*/
+
+#compétences
+{
+    padding-left: 6%;
+    padding-bottom: 2%;
+}
+
+h3, h4, h2
+{
+    font-family : MontereyFLF;
+}
+
+.skillbar-title
+{
+    color: black;
+    font-size: 100%;
+    font-weight: bold;
+    text-align: center;
+    padding: 3%;
+    border-radius: 10px;
+}
+
+progress
+{   
+    width: 100%;
+    height: 80%;
+}
+
+hr
+{
+    color: #022756;
+    padding: 10px;
+}
+
+
+
+/*= Centres dinteret*/
+
+#interet
+{
+    text-align: center;
+}
+
+#musique
+{
+    text-align: center;
+}
+
+#zik
+{
+    padding-bottom: 5%;
+}
+
+.img-fluid
+{
+    margin: auto;
+    padding: 2%;
+}
+
+#terrarium, #duo, #ferre
+{
+    color: whitesmoke;
+    padding: 2em;
+    border-radius: 3%;
+    background-color:rgb(37, 37, 37);
+    margin: auto;
+    margin-bottom: 10%;
+}
+
+h5
+{
+    padding: 1em;
+    text-align: center;
+}
+
+
+
+/*= Formulaire*/
+
+input, textarea, #submit
+{
+    margin: 2%;
+}
+
+#rencontre, #formulaire
+{
+    color: white;
+    padding-bottom: 1em;
+    padding-left: 15px;
+    background-color: #022756;
+}
+
+footer
+{
+    font-family : MontereyFLF;
+    padding: 3em;
+}
